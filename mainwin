@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	cout << "Choose the type of calculator:" << endl;
+	cout << "1、服务类" << endl << "2、工程类" << "3、货物类" << endl;
+	int a;
+	cout << "你的选择";
+	cin >> a;
+	cout << a;
+	return 0;
+}
